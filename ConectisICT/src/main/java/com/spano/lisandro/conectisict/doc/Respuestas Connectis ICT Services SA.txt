@@ -1,0 +1,51 @@
+01-¿Qué es la Programación Orientada a Objetos (POO)?
+
+La programación orientada a objetos es un paradigma de programación, que se utiliza por gran parte de los programadores, debido a que ofrece una forma sencilla de resolver problemas, planteándolos como objetos reales. Además, a diferencia de la programación estructurada, permite que el código sea más fácil de leer, de mantener, y proporciona buena escalabilidad y reutilización de código.
+
+02-¿Qué es una clase?
+
+Una clase es una plantilla de la cual se pueden crear objetos, o instancias de la misma. Se utilizan para referenciar entidades, como por ejemplo una Persona, un Vehículo, un -Sustantivo-. Las clases tienen miembros, que le dan Estado y Comportamiento a los objetos que se van a crear de la Clase. Siempre que se da nombre a una clase es en singular y con la primera letra Mayúscula.
+
+03-¿Qué es un objeto o instancia?
+
+Un objeto, o una instancia de una Clase, es una particularidad de una Clase. Esto quiere decir que si la Clase es el molde del cual se saca el objeto, este será el producto de la clase. Posee Atributos y Métodos, que le dan su comportamiento. Cuando se crea un objeto siempre se crea con estado, si el constructor esta vacío, los valores serán 0 o null.
+
+04-¿Qué significa instanciar?
+
+Instanciar una clase significa crear un objeto de una clase. Darle estado a través de un método constructor, y que pueda cumplir con sus funciones designadas.
+
+05-¿Qué es un atributo de una clase?
+
+Un atributo hace referencia al Estado de un objeto. Un atributo de clase le pertenece a la clase entera, si un objeto Auto tiene un atributo String color="Blanco", todos los autos creados con esa clase serán de color blanco. Si se quisiera cambiar ese atributo a String color="Verde", automáticamente todos los objetos de esa clase tendrían como color el verde.
+
+06-¿Qué significa que un atributo sea público? ¿Y privado?
+
+Que un atributo sea público quiere decir que puede ser accedido desde cualquier parte del sistema. Que sea privado quiere decir que solo puede ser accedido por el objeto o la clase misma, a través de métodos Getters y Setters.
+
+07-¿Qué es un método?
+
+Un método es la acción o función que puede realizar un objeto o una clase. Se designa como un -Verbo- de la clase. Como .comparar, .obtenerTexto, .mostrarTexto, etc. 
+
+08-¿Qué significa que un método sea público? ¿Y privado?
+
+Que un método sea público significa que puede ser accedido desde cualquier lado del programa, tiene una alta visibilidad. En cambio, un método privado es uno que solo puede ser utilizado o accedido por la misma clase donde se encuentra.
+
+09-¿Qué es la herencia?
+
+La herencia es la capacidad que tienen las clases de obtener miembros de otras clases. Una clase Persona tiene String nombre, Int edad. Y una clase Cliente, en lugar de sobrescribir los atributos nombre y edad, puede heredarlos de la clase Persona. Esto ayuda a no escribir tanto código, y a identificar las clases a través de la herencia. Cliente por lo tanto extiende los métodos y atributos de Persona, pero también tiene los suyos propios, como puede ser id_cliente o nro_cuenta.
+
+10-¿Qué es una interfaz?
+
+Una interfaz es un conjunto de métodos que pueden ser implementados por las clases. La clase que la implemente debe reescribir el/los métodos de la interface. La ventaja que posee la interface sobre las clases Abstract es que se pueden implementar múltiples interfaces sin problema. En cambio, una herencia de varias clases Padre a una clase Hija, si bien en POO está contemplado, no es posible utilizarlo en Java.
+
+11-En Java, ¿qué es un tipo primitivo?
+
+Un tipo de dato primitivo en Java, es una unidad de medida de memoria con la cual mediremos el espacio que requerirá la variable que vamos a crear. Un número entero puede ocupar más o menos espacio en memoria dependiendo si es un -int- o un -long-.
+
+12-¿Qué tipos primitivos hay en Java?
+
+En Java hay 8 tipos de datos primitivos. byte, short, int, long, float, double, boolean y char. Los primeros 5 son números reales enteros, y comprenden diferentes rangos de números. Float y double son números con ",". Boolean tiene dos valores que son -true- o -false-, y char es una variable que guarda un caracter.
+
+13-En Java, ¿cuál es la diferencia entre Integer e int?
+
+En Java int es un tipo de dato primitivo, que guarda en memoria (4 bytes) un número entero. Por otro lado, Integer es una clase de Java que posee métodos heredados de Number, y a su vez de Object. Una forma usual de ver la clase Integer en Java es utilizando un Integer.parseInt().
